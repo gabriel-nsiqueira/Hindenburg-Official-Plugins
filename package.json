@@ -5,7 +5,7 @@
   "scripts": {
     "build-all": "yarn workspaces foreach run build",
     "update": "yarn workspaces foreach version patch",
-    "publish-all": "yarn workspace foreach npm publish --access public"
+    "publish-all": "yarn workspaces foreach --exclude hindenburg-official-plugins npm publish --access public"
   },
   "workspaces": [
     "packages/*"
