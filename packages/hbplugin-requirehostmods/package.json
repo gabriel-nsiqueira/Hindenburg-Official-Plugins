@@ -1,0 +1,19 @@
+{
+  "name": "hbplugin-requirehostmods",
+  "version": "1.0.11",
+  "main": "dist/index.js",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "tsc -p ./",
+    "prepack": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@skeldjs/hindenburg": "^0.0.10"
+  },
+  "files": [
+    "dist"
+  ]
+}

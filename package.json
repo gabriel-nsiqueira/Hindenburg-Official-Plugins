@@ -1,0 +1,11 @@
+{
+  "name": "hindenburg-official-plugins",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build-all": "yarn workspaces foreach run build"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
